@@ -1,6 +1,6 @@
 package com.driver;
 
-class RWOnly{    // task 1
+public class RWOnly{    // task 1
     private String name = "Java";  // task 2
 
     // Task 5 - Getter and Setters
