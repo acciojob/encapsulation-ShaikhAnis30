@@ -1,13 +1,14 @@
 package com.driver;
 
-public class RWOnly {
-    private String name = "Java";
+class RWOnly{    // task 1
+    private String name = "Java";  // task 2
 
-    public void set(String newName) {
-        name = newName;
+    // Task 5 - Getter and Setters
+    public String getName() {
+        return name;
     }
 
-    public String get(){
-        return name;
+    public void setName(String name) {
+        this.name = name;
     }
 }
